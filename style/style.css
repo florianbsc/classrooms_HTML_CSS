@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat+Alternates&family=Roboto&display=swap');
+/* @import 'index.css';
+@import 'portfolio.css';
+@import 'a-propos.css'; */
+
+/*             BALISES GENERALS          */
+
+
+* {
+	margin: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: 'Manrope', sans-serif;
+	background: #1F2039;
+}
+
+a {
+	color: #242424;
+	text-decoration: none;
+}
+
+em {
+	font-size: normal;
+	color: #A5B4FC;
+}
+
+h1 {
+	font-size: 3.5em;
+	color: #A5B4FC;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+	color: #F9F8FF;
+}
+
+p,
+li {
+	font-size: 1.1em;
+	color: #F9F8FF;
+}
+
+header,
+footer {
+	background-color: white;
+	padding: 20px 50px;
+}
+
+section {
+	padding: 80px;
+}
+
+footer,
+nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav a {
+	margin-left: 30px;
+}
+
+/*             CLASSE CREE          */
+
+
+.lien-hypertexte {
+	color: white;
+	display: inline-block;
+	background: linear-gradient(90deg, #8e86b5, #acaeed);
+	border-radius: 50px;
+	padding: 20px 30px;
+}
+
+.lien-icone {
+	margin-left: 30px;
+}
+
+/*               EVENEMENT AU CLIK OU AU SURVOL               */
+
+a:hover {
+	text-decoration: underline;
+}
+
+.lien-hypertexte:hover {
+	background: linear-gradient(90deg, #696484, #8788BA);
+	text-decoration: none;
+}
+
+.lien-icone:hover {
+	opacity: 0.5;
+}
+
+
+
+/* .bordure {
+	border-radius: 10deg;
+	border-width: 1px;
+	border-style: double;
+	border-color: #fff000;
+} */
+
+/*  .box {
+	font-size: 50px;
+	height: 100px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 5px 5px 25px rbga(0, 0, 0, 0.5);
+	text-shadow: 3px 3px 3px rbga(0, 0, 0, 0.2);
+	padding: 100px;
+} */
